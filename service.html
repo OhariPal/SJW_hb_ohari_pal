@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Hőlégballon</title>
+
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+                integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+                crossorigin="anonymous">
+        <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+        <div id="headi" class="w-100 d-flex justify-content-center align-items-center">
+                <h1 id="sh1">Hőlégballon <h1> <br>
+                                <h1>Szolgáltatások</h1>
+        </div>
+
+        <table class="table table-striped">
+                <tr>
+                        <td colspan="2" class="b">Megnevezés</td>
+                        <td class="b">Ár</td>
+                </tr>
+                <tr>
+                        <td rowspan="2" class="b sf">Hőlégballonos sétarepülő jegy</td>
+                        <td>Felnőtt</td>
+                        <td>40.000 Ft/fő</td>
+                </tr>
+                <tr>
+                        <td class="b sf">Gyerek (10-14 év)</td>
+                        <td>28.000 Ft/fő</td>
+                </tr>
+                <tr>
+                        <td class="b sf">Privát/romantikus repülés</td>
+                        <td></td>
+                        <td>70.000 Ft/2 fő</td>
+                </tr>
+        </table>
+
+        <h2>Hőlégballonos sétarepülő árkalkulátor</h2>
+        <form>
+                <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Gyermekek száma">
+                </div>
+                <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Felnőttek száma">
+                </div>
+                <button type="submit" class="btn btn-primary" onclick="szamitas()">Számoljunk együtt</button>
+        </form>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+<script src="js/script.js"></script>
+
+</html>
